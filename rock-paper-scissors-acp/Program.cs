@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using rock_paper_scissors_acp;
+
 Console.WriteLine("Rock, Paper, Scissors!");
+
+var game = new PlayGame();
+game.StartRound();
